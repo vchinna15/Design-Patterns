@@ -35,10 +35,15 @@ OOD: Object–Oriented Design (OOD) involves implementation of the conceptual mo
 
 SOLID principles of Object Oriented Design:
 SRP – Single Responsibility Principle.
+
 OCP – Open/Closed Principle.
+
 LSP – Liskov Substitution Principle.
+
 ISP – Interface Segregation Principle.
+
 DIP – Dependency Inversion Principle
+
 
 Object Orineted Programming: is a programming paradigm based upon objects (having both data and methods) that aims to incorporate the advantages of modularity and reusability. Objects, which are usually instances of classes, are used to interact with one another to design applications and computer programs
 
