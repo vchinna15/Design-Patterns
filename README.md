@@ -67,7 +67,30 @@ Classification of design pattern by scope:
 2. Class Patterns(deals with class relationships between class and their subclasses established by inheritence. they are static)
 
 Classification of design pattern by purpose:
-1. Creational
-2. Structural
-3. Behavioural
+1. Creational (deals with the process of object creation)
+2. Structural (deals with composition of classes or objects)
+3. Behavioural (deals with how classes or objects interact each other and distribue responsibility)
+
+Cra\eational Class patterns defer some part of object creation to subclasses, while Creational Object patternd defer it to another object.
+
+Structural Class Patterns use inheritence to compose classes, while Structurl Object patterns use composition to assemble objects.
+
+Behavioral Class patterns use inheritence to describe algorithm and flow of control. Behavioral Object patterns describe how a group  of objects cooperate to perform a task that no single object can carry out alone.
+
+How design patterns solve design problems?
+Design patterns help to 
+1. find ppropriate objects
+2. determine object granularity
+3. specify object interfaces (type - subtype, dynamic binding, polymorphism)
+4. secify object implementation ( class inheritence-parentclass-subclass, abstract class, concrete class, Class Inheritence Vs Interface Inheriteince, programming to an interface not an implementation)
+5. putting reuse mechanism to work (class inheritence(white box reuse), object composition(black bocx reuse), Favor Object composition over class inheritence, Delegation-is a way of making object composition as powerful for reuse as inheritence)
+6. Design for change
+
+three broad categories of softtware:
+1. Application Programs
+2. Toolkits
+3. Frameworks
+
+
+
 
