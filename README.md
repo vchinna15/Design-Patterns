@@ -88,14 +88,19 @@ Design patterns help to
   Some common causes of redesign:
     creating an object by specifying class explicitly: specifying class name hen you create oject commits to you a particular implementation. better to use interface. Abstract Factory, Factory Method, Prototype
     Dependence on specific operation: When you specify a particular operation, you commit to one way of satisfying a request. Avoid hard-coded request and wrap the request to an object and pass it to operation. Chain of responsibility, COmmand
-    
+  Dependence on hardware/software platform: Limit platform dependence: Abstract Factory, Bridge
+  Dependence on Object implementation: CLient that knows how object is created, stored or implemented might need to be changed when Object is changed. Hide these details from client. ABstract Factory, bridge, memento, proxy
+  Algorithmic dependencies: ALgorithms are often extended, optimised or replaced during development and reuse. So algorithms that are likely to be changed should be isolted. Builder, Iterator, Strategy, Template Method, Visitor
+  Loose coupling over Tight Coupling: Techniques like abtract coupling and layering promote loose coupling in system. Abstract Factory, Bridge, chain of responsibility, command, facade, mediator, observer.
+  Extending functionality by subclassing: this approach is not easy. Even new class has a fixed implementation. Instead, we can use Object COmposition and Delegation to provide flexible extension than Inheritence. New functionality can be added by composing existing objects differently. Bridge, chann of responsibility, composite, decorator, observer, stategy
+  Inability to alter the class conviniently: One reason is that yuo don't own the class that needs to be alternated. Adaptor, Decorator, Visitor
   
-
 Three broad categories of softtware:(Design patterns can be used for all these)
-1. Application Programs
-2. Toolkits
-3. Frameworks
+1. Application Programs(internal reuse, maintainability, extensibility)
+2. Toolkits(Libraries)(COde Reuse)
+3. Frameworks (Design reuse)
 
+How to select a design pattern:
 
 
 
