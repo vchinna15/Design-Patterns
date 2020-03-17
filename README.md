@@ -31,7 +31,7 @@ Beofre deep diving, let's focus on basics of Object Oriented SOftware:
 OOAD(Object Oriented Analysis and Design:
 OOA: Object-oriented analysis is a method of analysis that examines requirements from the perspective of the classes and objects found in the vocabulary of the problem domain.
 
-The main difference between object-oriented analysis and other forms of analysis is that by the object-oriented approach we organize requirements around objects, which integrate both behaviors (processes) and states (data) modeled after real world objects that the system interacts with. In other or traditional analysis methodologies(Structured Analysis and Design Methodology), the two aspects: processes and data are considered separately. For example, data may be modeled by ER diagrams, and behaviors by flow charts or structure charts.
+The main difference between object-oriented analysis and other forms of analysis is that by the object-oriented approach we organize requirements around objects, which integrate both behaviors (processes) and states (data) modeled after real world objects that the system interacts with. Outputs will be Use Cases and Object Models. In other or traditional analysis methodologies(Structured Analysis and Design Methodology), the two aspects: processes and data are considered separately. For example, data may be modeled by ER diagrams, and behaviors by flow charts or structure charts.
 
 OOD: Object–Oriented Design (OOD) involves implementation of the conceptual model produced during object-oriented analysis. In OOD, concepts in the analysis model, which are technology−independent, are mapped onto implementing classes, constraints are identified and interfaces are designed, resulting in a model for the solution domain, i.e., a detailed description of how the system is to be built on concrete technologies.
 
@@ -84,12 +84,19 @@ Design patterns help to
 3. specify object interfaces (type - subtype, dynamic binding, polymorphism)
 4. secify object implementation ( class inheritence-parentclass-subclass, abstract class, concrete class, Class Inheritence Vs Interface Inheriteince, programming to an interface not an implementation)
 5. putting reuse mechanism to work (class inheritence(white box reuse), object composition(black bocx reuse), Favor Object composition over class inheritence, Delegation-is a way of making object composition as powerful for reuse as inheritence)
-6. Design for change
+6. Design for change (if you don't consider change into account, you might need to redesign in future. those changes are class redefinition, class reimplementation, client modificarion and retesting)
+  Some common causes of redesign:
+    creating an object by specifying class explicitly: specifying class name hen you create oject commits to you a particular implementation. better to use interface. Abstract Factory, Factory Method, Prototype
+    Dependence on specific operation: When you specify a particular operation, you commit to one way of satisfying a request. Avoid hard-coded request and wrap the request to an object and pass it to operation. Chain of responsibility, COmmand
+    
+  
 
-three broad categories of softtware:
+Three broad categories of softtware:(Design patterns can be used for all these)
 1. Application Programs
 2. Toolkits
 3. Frameworks
+
+
 
 
 
