@@ -101,6 +101,41 @@ Three broad categories of softtware:(Design patterns can be used for all these)
 3. Frameworks (Design reuse)
 
 How to select a design pattern:
+1. Choose pattens based on the design objective of your application: Reusability, maintainability, extendability
+2. to avoid teh causes of redesign in your appliction
+3. Consider what you want to change in yuor design without redesign
+    Abstract Factory - families of product objects
+    Builder - How a composite object gets created
+    Factory Method - Subclass of object that is instantiated
+    Prototype -class of object that is instantiated
+    Singleton - the single instance of a class
+    Adapter - Interface to an object
+    Bridge - Implementation of an object
+    Composite - Structure and composition of an object
+    Decorator - Responsibilities of an object without subclassing
+    Facade - Interface to a sub-system
+    Flyweight - storage costs of objects
+    Proxy - how an object is accessed
+    Chain of Responsibility - object that can fulfill a request
+    Command - when and how a request is fulfilled
+    Interpreter - grammar and interpretation of a language
+    Iterator - how an aggregate's elements are accessed,traversed
+    Mediator - how and which objects interact with each other
+    Memento - what private information is stored outside an object, and when
+    Observer - number of objects that depend on another object; how the dependent objects stay up to date
+    State - states of an object
+    Strategy - an algorithm
+    Template Method - steps of an algorithm
+    Visitor - operations that can be applied to object(s) without changing their class(es)
+
+    
+
+How to use design pattern:
+1.  Make sure you understand the classes and objects in the pattern and how they relate to one another
+2. choose meaningful names for pattern participants
+3. Define the classes, declare teh interfaces, establish their inheritence relationships, and define instance variables(for data and object references).
+4. 
+
 
 
 
