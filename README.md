@@ -47,10 +47,10 @@ Object Orineted Programming: is a programming paradigm based upon objects (havin
 Grady Booch has defined object–oriented programming as “a method of implementation in which programs are organized as cooperative collections of objects, each of which represents an instance of some class, and whose classes are all members of a hierarchy of classes united via inheritance relationships”
 
 Principles of OOP:
-1. Abstraction
-2. Encapsulation
-3. Inheritence
-4. Polymorphism
+1. Abstraction (show only relevent details and hide the unnecessary/complex details)
+2. Encapsulation (keeping data and methods together)
+3. Inheritence (acquire properties and functions from another object)
+4. Polymorphism (perform a single operation in multiple way based on the context)
 
 
 Object oriented software design steps:
