@@ -36,11 +36,11 @@ The main difference between object-oriented analysis and other forms of analysis
 OOD: Object–Oriented Design (OOD) involves implementation of the conceptual model produced during object-oriented analysis. In OOD, concepts in the analysis model, which are technology−independent, are mapped onto implementing classes, constraints are identified and interfaces are designed, resulting in a model for the solution domain, i.e., a detailed description of how the system is to be built on concrete technologies.
 
 SOLID principles of Object Oriented Design:
-1. SRP – Single Responsibility Principle.
-2. OCP – Open/Closed Principle.
-3. LSP – Liskov Substitution Principle.
-4. ISP – Interface Segregation Principle.
-5. DIP – Dependency Inversion Principle
+1. SRP – Single Responsibility Principle (A class should have one and only one reason to change, meaning that a class should have only one job)
+2. OCP – Open/Closed Principle (Objects or entities should be open for extension, but closed for modification)
+3. LSP – Liskov Substitution Principle ( every subclass/derived class should be substitutable for their base/parent class)
+4. ISP – Interface Segregation Principle (clients shouldn't be forced to depend on methods in an interface that they do not use)
+5. DIP – Dependency Inversion Principle (the high level module must not depend on the low level module, but they should depend on abstractions)
 
 Object Orineted Programming: is a programming paradigm based upon objects (having both data and methods) that aims to incorporate the advantages of modularity and reusability. Objects, which are usually instances of classes, are used to interact with one another to design applications and computer programs
 
