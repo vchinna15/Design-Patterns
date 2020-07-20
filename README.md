@@ -3,7 +3,7 @@ Design pattern is a solution to a common problem that occurs during design. It h
 
 Simplest and most common patterns:
 1. Absolute Factory 
-2. Factory Method
+2. Factory Method (a separate Factory class with factory method)
 3. Adapter
 4. Composite
 5. Decorator
@@ -136,7 +136,22 @@ How to use design pattern:
 3. Define the classes, declare teh interfaces, establish their inheritence relationships, and define instance variables(for data and object references).
 4. 
 
+Singleton Pattern(Problem: need to create only one instance for the application. Ex: Logger. Only one instance is created while the application starts up or the app receives it's first request)
+public class Singleton { 
+  private static Singleton singleInstance; 
+    private Singleton() {} 
+  public static Singleton getSingleInstance() { 
+    if (singleInstance == null) { 
+      synchronized (Singleton.class) { 
+        if (singleInstance == null) { 
+          singleInstance = new Singleton(); 
+        } 
+      } 
+    } 
+    return singleInstance; 
+  }
 
+Prototype(Problem: Creating a new object is resource intensive and hence can't use new keyword every time; Solution: implement colable interface and call clone() method to create object)
 
 
 
