@@ -67,9 +67,9 @@ Classification of design pattern by scope:
 2. Class Patterns(deals with class relationships between class and their subclasses established by inheritence. they are static)
 
 Classification of design pattern by purpose:
-1. Creational (deals with the process of object creation)
-2. Structural (deals with composition of classes or objects)
-3. Behavioural (deals with how classes or objects interact each other and distribue responsibility)
+1. Creational (how objects can be instantiated)
+2. Structural (how objects/classes can be combined to deliver a fumctionality)(It enables client code to modify interface, extend behaviour, restrict access and unify access)
+3. Behavioural (how objects/classes interact each other and distribue responsibility)
 
 Cra\eational Class patterns defer some part of object creation to subclasses, while Creational Object patternd defer it to another object.
 
